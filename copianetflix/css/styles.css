@@ -1,0 +1,270 @@
+/*GENERAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.625rem;
+}
+h3{
+    font-size: 1rem;
+}
+
+section{
+    background: #000000;
+    border-bottom: 8px solid #222;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section div.contenido{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurar{
+    clear: both;
+}
+
+/*FINGENERAL*/
+/*FONDO*/
+html, body, .cover{
+    height: 100%;
+}
+
+.cover{
+    background: url(../images/fondo.jpg);
+}
+/*FINFONDO*/
+
+/*CABECERA*/
+section.cabecera{
+    background: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+}
+
+nav{
+    margin: -60px 3.5rem;
+    padding-top: 26px;
+}
+
+div.logo{
+    float: left;
+}
+div.login{
+    float: right;
+}
+
+div.login:hover{
+    cursor: pointer;
+}
+
+div.login span{
+    padding: 7px 17px;
+    background: #e50914;
+    border-radius: 4px;
+}
+div.login span:hover{
+    background: red;
+}
+
+.presentacion {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.presentacion input{
+    height: 52px;
+    width: 500px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    border-radius: 2px 0px 0px 2px;
+    border: solid 1px #5695e9;
+    padding-left: 11px;
+    color: #1c1c1c;
+}
+
+.presentacion span{
+    background: #e50914;
+    padding: 12px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    margin-left: -5px;
+    border: solid #e50914;
+}
+.presentacion span:hover, .contPreguntas span:hover{
+    cursor: pointer;
+    background: red;
+}
+/*FINCABECERA*/
+
+/*TV*/
+.izquierda{
+    float: left;
+}
+.derecha{
+    float: right;
+}
+.flotanteTexto{
+    width: 59%;
+}
+.flotanteImagen{
+    width: 39%;
+}
+
+.contenido img{
+    width: 100%;
+    height: auto;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+.contenido h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.contenido p{
+    font-size: 25px;
+    font-weight: 200;
+}
+.tv video{
+    position: absolute;
+    transform: translate(-373px, 68px);
+    width: 313px;
+    z-index: 1;
+}
+/*FINTV*/
+
+/*Descarga*/
+.tarjetaInt{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #434343;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    z-index: 2;
+    background: #000000;
+}
+.portada{
+    display: flex;
+    align-items: center;
+}
+.tajeta{
+    position: relative;
+    transform: translate(-65px, -41px);
+}
+/*FIN DESCARGA*/
+
+/*DISFRUTA*/
+.disfruta video{
+    position: absolute;
+    transform: translate(-347px, 39px);
+    width: 263px;
+    z-index: 1;
+}
+/*FINDISFRUTA*/
+
+/*SECCIONPREGUNTAS*/
+.preguntas h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+.contPreguntas{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+}
+.contPreguntas div{
+    text-align: left;
+    font-size: 20px;
+}
+.pregunta{
+    background: #303030;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.respuesta{
+    background: #303030;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.pregunta p, .respuesta p{
+    padding: 10px;
+    padding-left: 20px;
+}
+.respuesta hr{
+    border: 1px solid #262626;
+}
+.pregunta:hover .respuesta{
+    max-height: 1000px;
+}
+.respuesta{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.contPreguntas h3{
+    padding-top: 15px;
+}
+
+.contPreguntas input{
+    height: 52px;
+    width: 400px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    border-radius: 2px 0px 0px 2px;
+    border: solid 1px #5695e9;
+    padding-left: 11px;
+    color: #1c1c1c;
+}
+.contPreguntas span{
+    background: #e50914;
+    padding: 12px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    margin-left: -5px;
+    border: solid #e50914;
+}
+/*FINPREGUNTAs*/
+
+/*SECCIONPIEDEPAGINA*/
+.piecontenido{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.pie P{
+    padding: 7px;
+}
+.pie .espacio{
+    width: 100px;
+}
+/*FINDEPIE*/
